@@ -4,30 +4,41 @@
     <meta charset="utf-8" />
     <meta name="description" content="Zadanie domowe #1" />
     <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <div>
-        <a href="Webstudio.com">Webstudio</a>
+        <a class="logo" href="index.html">Webstudio</a>
         <nav>
-          <ul>
-            <li><a href="index.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li>Kontakty</li>
+          <ul class="menu">
+            <li><a class="menu-item" href="index.html">Agencja</a></li>
+            <li><a class="menu-item" href="portfolio.html">Portfolio</a></li>
+            <li><a class="menu-item">Kontakty</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111"> +48 111 111 111</a></li>
+        <ul class="contacts">
+          <li>
+            <a
+              class="contacts-item"
+              href="mailto:info@example.com"
+              style="text-decoration: none"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="contacts-item"
+              href="tel:+48111111111"
+              style="text-decoration: none"
+            >
+              +48 111 111 111</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -35,115 +46,126 @@
     <main>
       <section>
         <!-- Portfolio -->
-        <ul>
+        <ul class="filters">
           <!-- Filters -->
-          <li><button>Wszystkie</button></li>
-          <li><button>Strony</button></li>
-          <li><button>Aplikacje</button></li>
-          <li><button>Dizajn</button></li>
-          <li><button>Marketing</button></li>
+          <li><button class="filters-item">Wszystkie</button></li>
+          <li><button class="filters-item">Strony</button></li>
+          <li><button class="filters-item">Aplikacje</button></li>
+          <li><button class="filters-item">Dizajn</button></li>
+          <li><button class="filters-item">Marketing</button></li>
         </ul>
-        <ul>
-          <li>
+        <ul class="projects">
+          <li class="project-card">
             <img
               src="images/Portfolio_Technocrack.jpg"
               alt="laptop and webpage"
               width="370"
               height="294"
             />
-            <p>Technocrack</p>
-            <p>Strona internetowa</p>
+            <p class="project-card-head">Technocrack</p>
+            <p class="project-card-object">Strona internetowa</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_basketball.jpg"
               alt="basketball"
               width="370"
               height="294"
             />
-            <p>Grafika New Orlean vs Golden Star</p>
-            <p>Dizajn</p>
+            <p class="project-card-head">Grafika New Orlean vs Golden Star</p>
+            <p class="project-card-object">Dizajn</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_seafood.jpg"
               alt="Seefood restaurant"
               width="370"
               height="294"
             />
-            <p>Restauracja Seafood</p>
-            <p>Aplikacja</p>
+            <p class="project-card-head">Restauracja Seafood</p>
+            <p class="project-card-object">Aplikacja</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_headphones.jpg"
               alt="headphones"
               width="370"
               height="294"
             />
-            <p>Projekt Prime</p>
-            <p>Marketing</p>
+            <p class="project-card-head">Projekt Prime</p>
+            <p class="project-card-object">Marketing</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_bricks.jpg"
               alt="bricks"
               width="370"
               height="294"
             />
-            <p>Projekt Boxes</p>
-            <p>Aplikacja</p>
+            <p class="project-card-head">Projekt Boxes</p>
+            <p class="project-card-object">Aplikacja</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_monitor.jpg"
               alt="monitor"
               width="370"
               height="294"
             />
-            <p>Inspiration has no Borders</p>
-            <p>Strona internetowa</p>
+            <p class="project-card-head">Inspiration has no Borders</p>
+            <p class="project-card-object">Strona internetowa</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_newspaper.jpg"
               alt="newspaper"
               width="370"
               height="294"
             />
-            <p>Magazyn Limited Edition</p>
-            <p>Dizajn</p>
+            <p class="project-card-head">Magazyn Limited Edition</p>
+            <p class="project-card-object">Dizajn</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_tag.jpg"
               alt="tag"
               width="370"
               height="294"
             />
-            <p>Projekt LAB</p>
-            <p>Marketing</p>
+            <p class="project-card-head">Projekt LAB</p>
+            <p class="project-card-object">Marketing</p>
           </li>
-          <li>
+          <li class="project-card">
             <img
               src="images/Portfolio_notebook.jpg"
               alt="notebook"
               width="370"
               height="294"
             />
-            <p>Growing Business</p>
-            <p>Aplikacja</p>
+            <p class="project-card-head">Growing Business</p>
+            <p class="project-card-object">Aplikacja</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="Webstudio.com">Webstudio</a>
+      <a class="logo" href="index.html">Webstudio</a>
       <address>m. Warszawa, Aleje Jerozolimskie 21</address>
       <address>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+48111111111"> +48 111 111 111</a>
+        <a
+          class="contacts-item"
+          href="mailto:info@example.com"
+          style="text-decoration: none"
+          >info@example.com</a
+        >
+        <a
+          class="contacts-item"
+          href="tel:+48111111111"
+          style="text-decoration: none"
+        >
+          +48 111 111 111</a
+        >
       </address>
     </footer>
   </body>
