@@ -62,7 +62,7 @@
   background-color: rgba(33, 150, 243, 1);}
   
 .button {
-  line-height: 1.875;
+  line-height: 1.875; 
   font-weight: bold;
   color: rgba(33, 33, 33, 1);
 }
