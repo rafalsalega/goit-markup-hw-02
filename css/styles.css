@@ -145,9 +145,11 @@ height: 404px;
 background-color: rgba(255, 255, 255, 1);
   list-style-type: none;
 }
-.project-card-head {font-weight: 700;
-font-size: 18px;
-line-height: 2;
+.projects h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  width: 322px;
 }
 .project-card-object {
     line-height: 1.875;
